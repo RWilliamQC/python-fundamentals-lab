@@ -1,1 +1,18 @@
+# Desarrollo y evolucion de los lenguajes de programacion
 
+- La computadora solo entiende de 0s y 1s
+    * El modelo fisico : El transistor y los niveles de voltaje
+    * El Modelo Matematico : El algebra de Boole
+    * La sintesis de Shannon : El puente entre la fisica y la matematica
+    * La Abstraccion Superior : Arquitectura de Von Neumann
+
+- Lenguaje maquina en las computadoras de la decada de 1940
+    * ENIAC
+    * EDSAC
+- El lenguaje ensamblador (Decada de 1950)
+- Fortran (1957 : FORmula TRANslation)
+- Cobol (1959  : COmmon Business-Oriented Language)
+- Lenguaje de programacion C
+- Lenguaje de programacion C++
+- Python (1991) : Popularizado en el 2000
+- java (1995)
