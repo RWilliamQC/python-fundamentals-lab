@@ -1,16 +1,19 @@
-# Industrial Sensor Telemetry & Event Logging System (Python Core)
+# Python Fundamentals Lab
 
 ## Overview
-Engineered for real-time sensor data acquisition, telemetry processing, and threshold-based event logging. Designed with industrial software practices, strong typing, and modular code architecture for embedded systems and edge applications.
+Repository dedicated to mastering Python programming fundamentals through practical exercises, theoretical notes, and code samples. Exercises and examples are contextualized with engineering logic, numerical operations, and hardware-oriented scenarios relevant to Electronic Engineering.
 
 ## Project Structure
-- `src/`: Modular Python core components and logging logic.
-- `notebooks/`: Interactive Google Colab validation environments.
-- `Cheat_Sheet_Python.ipynb`: Technical micro-benchmarks and syntax edge-cases.
+- `codigo/`: Clean Python scripts (`.py`) for quick reference, syntax study, and direct execution.
+- `notebooks/`: Interactive Google Colab notebooks (`.ipynb`) for step-by-step experimentation and visual validation.
+- `apuntes/`: Conceptual notes, session summaries, and theoretical documentation.
+- `src/`: Reusable scripts and modular Python utilities developed throughout the course.
+- `Cheat_Sheet_Python.ipynb`: Syntax quick reference, edge cases, and language cheatsheet.
 
-## Tech Stack
+## Technical Stack & Tools
 - **Language:** Python 3.x
-- **Target Systems:** Embedded Linux, Edge AI Gateways, Industrial IoT Nodes.
+- **Environment:** Google Colab (Hosted Ubuntu Linux Environment)
+- **Version Control:** Git / GitHub
 
 ---
-*Developed during PIT UNI - Python Basic Course.*
+*Developed as part of the PIT UNI - Python Basic Course.*
