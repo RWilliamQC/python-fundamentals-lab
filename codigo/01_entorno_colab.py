@@ -12,3 +12,6 @@
 
 # Version de python
 !python --version
+
+# zen de python
+import this
