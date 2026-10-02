@@ -1,18 +1,19 @@
 # Desarrollo y evolucion de los lenguajes de programacion
 
-- La computadora solo entiende de 0s y 1s
-    * El modelo fisico : El transistor y los niveles de voltaje
-    * El Modelo Matematico : El algebra de Boole
-    * La sintesis de Shannon : El puente entre la fisica y la matematica
-    * La Abstraccion Superior : Arquitectura de Von Neumann
+- La computadora solo entiende de 0s y 1s (sistema binario). 
+    * El modelo fisico: El transistor y los niveles de voltaje. Corte y saturación. Es el bloque elemental que permite manejar informacion.
+    * El Modelo Matematico: El algebra de Boole. Operaciones Logicas en base a valores de verdad. Permite construir una estructura solida.
+    * La sintesis de Shannon: El puente entre la fisica y la matematica. Demuestra la aplicacion de algebra de boole en sistemas electricos.
+    * La Abstraccion Superior: Arquitectura de Von Neumann. Datos e instrucciones(software) tienen forma binaria.
 
-- Lenguaje maquina en las computadoras de la decada de 1940
-    * ENIAC
-    * EDSAC
-- El lenguaje ensamblador (Decada de 1950)
-- Fortran (1957 : FORmula TRANslation)
-- Cobol (1959  : COmmon Business-Oriented Language)
-- Lenguaje de programacion C
-- Lenguaje de programacion C++
+- Lenguaje maquina en las computadoras de la decada de 1940 para las primeras instrucciones y programas.
+    * ENIAC: Primera computadora de proposito general. Programacion por hardware (antes de Von Neumann).
+    * EDSAC: Primera computadora en base a la arquitectura de Von Neumann. Instrucciones origen en ensamblador.
+
+- El lenguaje ensamblador (Decada de 1950). Primera Version.
+- Fortran (1957 : FORmula TRANslation). Variables, Control de flujo, Subrutinas, optimizacon.
+- Cobol (1959  : COmmon Business-Oriented Language) para aplicaciones comerciales. Infraestructura bancaria.
+- Lenguaje de programacion C. Base de los lenguajes de programacion actuales. Lenguaje compilado y estructurado de nivel medio. Paradigma de programacion estructurada y procedural (procedimientos estructurados). Tipos de variable estáticos, manifiesto. 
+- Lenguaje de programacion C++. Evolucion de C. Multiparadigma. Soporta desde sistemas operativos hasta sistemas de alto rendimiento.
 - Python (1991) : Popularizado en el 2000
 - java (1995)
