@@ -2,17 +2,17 @@
 
 - Paradigmas de programacion
     * Programacion orientada a Objetos
-    * Programacion imperativa y estructurada
-    * Programacion Funcional
-    * Programacion Generica
+    * Programacion imperativa y estructurada. Estructuras de control, input y output.
+    * Programacion Funcional. Funciones de orden superior.
+    * Programacion Generica.
 
 - Sistemas de Tipos
-    * Tipado dinamico
-    * Tipado Fuerte
-    * Type Hints (A partir de la version 3.5 de python : PEP484)
+    * Tipado dinamico: Variables tienen valores como tipos.
+    * Tipado Fuerte: Operaciones en entre tipos distintos restringidos
+    * Type Hints (A partir de la version 3.5 de python : PEP484). Anotacion de tipos, typing.
 
-- Estructuras de datos
+- Estructuras de datos Listas, tuplas, rand.
 
-- Estructuras de control
+- Estructuras de control. Condicionales, bucles, emparejamiento, excepciones, gestores de contexto.
 
-**Obs :** Python utiliza la indentacion (espacios en blanco) para delimitar bloques de codigo
+**Obs :** Python utiliza la indentacion (espacios en blanco) para delimitar bloques de codigo.
