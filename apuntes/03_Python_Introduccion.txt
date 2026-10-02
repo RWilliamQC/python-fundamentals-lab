@@ -1,0 +1,18 @@
+# Una introduccion al lenguaje de programacion python
+
+- Paradigmas de programacion
+    * Programacion orientada a Objetos
+    * Programacion imperativa y estructurada
+    * Programacion Funcional
+    * Programacion Generica
+
+- Sistemas de Tipos
+    * Tipado dinamico
+    * Tipado Fuerte
+    * Type Hints (A partir de la version 3.5 de python : PEP484)
+
+- Estructuras de datos
+
+- Estructuras de control
+
+**Obs :** Python utiliza la indentacion (espacios en blanco) para delimitar bloques de codigo
