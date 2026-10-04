@@ -1,0 +1,15 @@
+## Operaciones con variables de naturaleza numerica
+
+- `+` : operacion suma
+- `-` : operacion resta
+- `*` : multiplicacion
+- `/` : division
+- `**` : potenciacion
+
+**Observacion** : No hay que olvidar el uso de parentesis para operaciones complejas.
+
+Algoritmo de Euclides : `D = d * q + r`
+
+    * Cociente : `q = D // d`
+
+    * Residuo : `r = D % d`
