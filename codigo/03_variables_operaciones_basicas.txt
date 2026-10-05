@@ -22,3 +22,6 @@ y2
 # Operaciones con resultados
 y3 = (y2 * y1) * (x6 + 3.14)
 y3
+
+# Tipo de dato funcion type
+type(y1)
