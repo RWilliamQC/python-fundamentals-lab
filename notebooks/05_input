@@ -1,0 +1,1057 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Funcion de entrada : `input`\n"
+      ],
+      "metadata": {
+        "id": "bX5bwnJrHFjE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JhfaqzUIG918",
+        "outputId": "ff1aad74-9842-4d63-a98f-142426f547e0"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu peso en kilos : 115\n"
+          ]
+        }
+      ],
+      "source": [
+        "# La funcion integrada input\n",
+        "peso = input(\"Ingresa tu peso en kilos : \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# TIPO DE RETORNO : SIEMPRE devuelve un objeto de tipo str"
+      ],
+      "metadata": {
+        "id": "6bKEsXlAIcSi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipo de dato\n",
+        "type(peso)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DotPhIkDIzEi",
+        "outputId": "664234a4-75d9-4b6a-c2e2-9761fc3bf03d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# La funcion integrada input\n",
+        "nombre1 = input(\"Ingresa tu primer nombre : \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VHeiiX5ZI2QE",
+        "outputId": "02febd7f-440b-4168-f11a-bf4d88fcd488"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu primer nombre : Ronnie\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipo de dato\n",
+        "type(nombre1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S3XwUCMtI_Ky",
+        "outputId": "57fbe520-145e-46fc-f794-73324ec31989"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# La funcion integrada input\n",
+        "estatura = input(\"Ingresa tu estatura en metros : \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pumoteM6JSrA",
+        "outputId": "36d00fe3-6c47-418f-e78d-79a1e991d096"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu estatura en metros : 1.80\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipo de dato\n",
+        "type(estatura)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0kdSALhgJbH4",
+        "outputId": "eb7a333a-6da8-47a4-d571-0a3230a7829b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# En vista de que python almacena en memoria las variables obtenidas mediante\n",
+        "# la funcion integrada input como variables de tipo str, debo (en funcion a mis necesidades)\n",
+        "# convertir el tipo de estas variables.\n",
+        "\n",
+        "# La variable peso debe ser int\n",
+        "peso = int(peso)\n",
+        "\n",
+        "# La variables estatura debe ser un punto flotante (float)\n",
+        "estatura = float(estatura)\n",
+        "\n",
+        "# A esta conversion tambien se le suele denominar : Type Casting"
+      ],
+      "metadata": {
+        "id": "QfS8rBY-JmNd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipo de dato\n",
+        "type(peso)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VNEmew88KMgO",
+        "outputId": "57bdeebd-2a78-438b-d6bf-f3ce86e5a1a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipo de dato\n",
+        "type(estatura)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J2yKynQCKPDt",
+        "outputId": "461caaba-fee8-4588-fb10-edc63a1e458c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Otra forma (mas tecnica) de proveer datos a nuestras aplicaciones : sys.stdin.read o sys.stdin.readline\n",
+        "# Otra forma (mas tecnica) de proveer datos a nuestras aplicaciones : Entrada de archivos (open)"
+      ],
+      "metadata": {
+        "id": "y1wRTHNnK8h6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito : Pidamos los datos personales al usuario (primer nombre, segundo nombre, apellido paterno, apellido materno , ...)\n",
+        "primer_nombre = input(\"Ingresa tu primer nombre : \")\n",
+        "segundo_nombre = input(\"Ingresa tu segundo  nombre : \")\n",
+        "apellido_paterno = input(\"Ingresa tu apellido paterno : \")\n",
+        "apellido_materno = input(\"Ingresa tu apellido materno : \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V9Gw5aVrMWPz",
+        "outputId": "ffdf73c2-b3fb-4bb6-8939-4ed61114a609"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu primer nombre : Ronnie\n",
+            "Ingresa tu segundo  nombre : Williams\n",
+            "Ingresa tu apellido paterno : Quispe\n",
+            "Ingresa tu apellido materno : Ccasa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Construir el nombre completo del usuario (operacion de concatenacion)\n",
+        "nombre_completo = primer_nombre + \" \" + segundo_nombre + \" \" + apellido_paterno + \" \" + apellido_materno\n",
+        "nombre_completo"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "w9axhn5aM5mO",
+        "outputId": "92b3304f-555d-4076-b942-b10b0318e49a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Ronnie Williams Quispe Ccasa'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pidamos al usuario su edad :\n",
+        "edad_usuario = int(input(\"Ingresa tu edad : \"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PbfzyvHlNMSX",
+        "outputId": "c460a676-41dc-4247-fded-0145c646f943"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu edad : 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Con la informacion obtenida por parte del usuario ya puedo realizar operaciones\n",
+        "imc = peso/estatura**2\n",
+        "imc"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kxaYZbPENpF9",
+        "outputId": "63081be4-f5c7-4d38-a5e8-754dbc5d37d5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "35.49382716049382"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Limitaciones\n",
+        "talla_zapatos = int(input(\"Ingresa tu talla de calzado (debe ser un numero entero): \"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3MfQQLh2N41E",
+        "outputId": "f9deda78-98ee-4918-ad11-df107bec346d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa tu talla de calzado (debe ser un numero entero): 38\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Necesito pedirle al usuario una respuesta booleana\n",
+        "rspta = bool(input(\"¿Has tenido alguna operacion ? : \"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kNYjDd5qPLBF",
+        "outputId": "beb9ec71-e5ee-44cb-b9f1-f6cdf9a7e135"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "¿Has tenido alguna operacion ? : False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipot de dato\n",
+        "type(rspta)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OIVT291jPW5K",
+        "outputId": "4228d56b-72cc-4496-f379-bbd95995b449"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "bool"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito :\n",
+        "# Pedir al usuario la base y la altura de un triangulo y calcular su area\n",
+        "\n",
+        "# Entradas/Inputs\n",
+        "base_triangulo = float(input(\"Ingresa la base del triangulo : \"))\n",
+        "altura_triangulo = float(input(\"Ingresa la altura del triangulo : \"))\n",
+        "\n",
+        "# Basandome en un resultado EMINENTEMENTE TEORICO procedo con la obtencion del\n",
+        "# area del triangulo\n",
+        "area_triangulo = base_triangulo * altura_triangulo / 2\n",
+        "\n",
+        "# Mostremos el valor almacenado en la variable area_triangulo\n",
+        "area_triangulo"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BYKbx_nAPk9K",
+        "outputId": "039e1f31-e8be-406e-dd7b-f1e45b9e07a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa la base del triangulo : 4\n",
+            "Ingresa la altura del triangulo : 2\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 21
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito\n",
+        "# El usuario provee los 3 lados de un triangulo, con esta informacion\n",
+        "# proceda a calcular el area del triangulo\n",
+        "\n",
+        "# Entradas/Inputs\n",
+        "lado1 = float(input(\"Ingresa el primer lado del triangulo  : \"))\n",
+        "lado2 = float(input(\"Ingresa el segundo lado del triangulo  : \"))\n",
+        "lado3 = float(input(\"Ingresa el tercer lado del triangulo  : \"))\n",
+        "\n",
+        "# Basandome en un resultado EMINENTEMENTE TEORICO procedo con la obtencion\n",
+        "# del area del triangulo\n",
+        "# Utilizando la Formula de Heron\n",
+        "semiperimetro = (lado1 + lado2 + lado3)/2\n",
+        "area = (semiperimetro * (semiperimetro-lado1) * (semiperimetro - lado2) * (semiperimetro -lado3))**(0.5)\n",
+        "\n",
+        "# Mostremos el valor de la variable area\n",
+        "area"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Zy4MYFdsQd9e",
+        "outputId": "dc31c00d-d456-451d-8017-e9d863e461e6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa el primer lado del triangulo  : 12\n",
+            "Ingresa el segundo lado del triangulo  : 13\n",
+            "Ingresa el tercer lado del triangulo  : 5\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "30.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 26
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito\n",
+        "# Dado el valor de un angulo x , aproximar mediante el polinomio de taylor la funcion\n",
+        "# seno(x)  approx x - x**3/3! + x**5/5! - x**7/7!\n",
+        "\n",
+        "# Entradas/Inputs\n",
+        "angulo = float(input(\"Ingresa el angulo (°): \"))\n",
+        "\n",
+        "# Basandome en un resultado EMINENTEMENTE TEORICO procedo a obtener una aproximacion\n",
+        "# del seno del angulo ingresado (proveido por el usuario)\n",
+        "\n",
+        "# Necesitamos importar el modulo math\n",
+        "import math as m\n",
+        "\n",
+        "# Pasamos/transformamos el angulo a radianes\n",
+        "x = angulo * m.pi / 180\n",
+        "\n",
+        "# Utilicemos la formula de aproximacion\n",
+        "seno_taylor = x - (x**3)/(m.factorial(3)) + (x**5)/(m.factorial(5)) - (x**7)/(m.factorial(7))\n",
+        "\n",
+        "# Mostremos el resultado\n",
+        "seno_taylor\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3_h5xovOTS2_",
+        "outputId": "63546c17-b88d-4ef6-9d16-3d8d12e8522f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa el angulo (°): 30\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.4999999918690232"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Calculemos el seno(30°) usando el modulo math\n",
+        "m.sin(m.radians(30))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V2qxUhzXU8mn",
+        "outputId": "1d1c1e8d-cdfc-48a6-ad2c-d99d03cd4d34"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.49999999999999994"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Calculemos el error cometido por nuestra implementacion (Valor teorico : 0.5)\n",
+        "error1 = m.fabs(0.5 - seno_taylor)\n",
+        "error1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QNDPYBDVVT-8",
+        "outputId": "bb65cc07-d88d-48ea-80c7-618c2f793321"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8.130976780762467e-09"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 24
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Calculemos el error que comete el modulo math\n",
+        "error2 = m.fabs(0.5 - m.sin(m.radians(30)))\n",
+        "error2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "47PKSoUmVgyQ",
+        "outputId": "d50fbab3-3bf2-4d3a-edb8-62799903a878"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5.551115123125783e-17"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 25
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# En vista que el error cometido por el modulo math es menor que el\n",
+        "# error cometido por mi implementacion , concluimos que la aproximacion\n",
+        "# que utiliza el modulo math es mas precisa"
+      ],
+      "metadata": {
+        "id": "aGGH_jBZV2Dq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Necesito mostrar en una misma celda las variables error1 y error2\n",
+        "error1\n",
+        "error2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qcMoYboxWlIG",
+        "outputId": "99b71053-4154-4e71-a05b-93c414ac786d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5.551115123125783e-17"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# La funcion de salida : `print`"
+      ],
+      "metadata": {
+        "id": "y0E6k4dgWzd1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Para mostrar dos variables como error1 y error2 : utilicemos dos print\n",
+        "print(error1)\n",
+        "print(error2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vjPGtMtqXLyQ",
+        "outputId": "6e82985c-ac6a-47e1-a7a6-1a343144572c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8.130976780762467e-09\n",
+            "5.551115123125783e-17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Seamos mas explicitos al momento de mostrar los resultados\n",
+        "print(\"El error cometido por mi aprox. de taylor \", error1 )\n",
+        "print(\"El error cometido por la funcion seno del modulo math es  : \", error2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vj_3gJLkXZfN",
+        "outputId": "a7ea0dc4-e44c-4787-a484-de800e871428"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El error cometido por mi aprox. de taylor  8.130976780762467e-09\n",
+            "El error cometido por la funcion seno del modulo math es  :  5.551115123125783e-17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Podemos meter toda esta informacion en un print\n",
+        "# (utilizando el caracter salto de linea : \\n)\n",
+        "print(\"El error cometido por mi aprox. de taylor \", error1 , \"\\nEl error cometido por la funcion seno del modulo math es  : \", error2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xP5mmF56Xrl1",
+        "outputId": "aebbe288-26f8-449c-c845-f1e23458811d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El error cometido por mi aprox. de taylor  8.130976780762467e-09 \n",
+            "El error cometido por la funcion seno del modulo math es  :  5.551115123125783e-17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito\n",
+        "# Calculemos el interes simple de un monto proveido por el usuario (M0) a una\n",
+        "# tasa (i) del 10% anual con un horizonte (t) dado por el usuario\n",
+        "\n",
+        "# Inputs\n",
+        "M0 = float(input(\"Ingresa el monto inicial : \"))\n",
+        "t = float(input(\"Inigresa el tiempo (resolucion anual) : \"))\n",
+        "\n",
+        "# Operaciones (Teorico)\n",
+        "i = 0.1\n",
+        "interes = M0 * i * t\n",
+        "\n",
+        "# Salida/Outputs\n",
+        "print(\"El interes generado es: \" , interes)\n",
+        "print(\"El interes generado es %.2f\" %(interes))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2QML8VldYP_S",
+        "outputId": "7cda9f59-9a13-4dcb-f25e-da24362e61b1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa el monto inicial : 100\n",
+            "Inigresa el tiempo (resolucion anual) : 2\n",
+            "El interes generado es:  20.0\n",
+            "El interes generado es 20.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Otra forma  : docstring\n",
+        "print(\"\"\"\n",
+        "Calculadora de Interes\n",
+        "----------------------\n",
+        "\n",
+        "    Monto Inicial : %.2f\n",
+        "    Tiempo : %.2f\n",
+        "    ====================\n",
+        "\n",
+        "    Interes generado  : %.2f\n",
+        "\n",
+        "\"\"\" %(M0, t , interes))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LQ8zS5jnZgls",
+        "outputId": "2ca7e53c-e23b-4f45-ef87-8e191179c264"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "Calculadora de Interes\n",
+            "----------------------\n",
+            "\n",
+            "    Monto Inicial : 100.00\n",
+            "    Tiempo : 2.00\n",
+            "    ====================\n",
+            "\n",
+            "    Interes generado  : 20.00\n",
+            "\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Estructura de control `IF`\n",
+        "\n",
+        "```python\n",
+        "\n",
+        "if condicionX:\n",
+        "    ejecutar_tarea1\n",
+        "    ejecutar_tarea2\n",
+        "elif condicionY:\n",
+        "    ejecutar_tarea3\n",
+        "    ejecutar_tarea4\n",
+        "    ejecutar_tarea5\n",
+        "elif condicionZ:\n",
+        "    ejecutar_tarea6\n",
+        "    ejecutar_tarea7\n",
+        "    ejecutar_tarea8\n",
+        "else:\n",
+        "    ejecuta_tarea_si_todas_las_condicionales_anteriores_son_false\n",
+        "\n",
+        "\n",
+        "\n",
+        "```"
+      ],
+      "metadata": {
+        "id": "_jXlFh7iajpl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplito\n",
+        "# Consideremos pedir al usuario su edad (almacenada en memoria ram como un int)\n",
+        "# En funcion del valore ingresado, tomaremos algunas acciones :\n",
+        "    # edad >= 0 y edad<18 : \"Es momento de preparar el terreno para la siembra\"\n",
+        "    # edad >=18 y edad<29 : \"Es momento de sembrar\"\n",
+        "    # edad >= 29 y edad < 45 : \"Es momento de cuidar el terreno para futuras siembras\"\n",
+        "    # edad >= 45 y edad < 99 : \"Es momento de disfrutar la cosecha\"\n",
+        "\n",
+        "print(\"Bienvenidos a mi primera celda que utiliza la estructura de decision IF\")\n",
+        "\n",
+        "# Entradas/Inputs\n",
+        "edad_user = int(input(\"Ingresa tu edad (Numero Entero) : \"))\n",
+        "\n",
+        "# Implementemos la logica\n",
+        "if (edad_user >= 0 ) and (edad_user < 18):\n",
+        "    print(\"Es momento de preparar el terreno para la siembra\")\n",
+        "elif (edad_user >= 18) and (edad_user < 29):\n",
+        "    print(\"Es momento de sembrar\")\n",
+        "elif (edad_user >= 29) and (edad_user < 45):\n",
+        "    print(\"Es momento de cuidar el terreno para futuras siembras\")\n",
+        "elif (edad_user >= 45) and (edad_user < 99) :\n",
+        "    print(\"Es momento de disfrutar la cosecha\")\n",
+        "else:\n",
+        "    print(\"El valor ingresado no es una edad adecuada (considerada)\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v7GYDsYobJh7",
+        "outputId": "d81eeda5-fe28-4514-e028-95037357ac78"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bienvenidos a mi primera celda que utiliza la estructura de decision IF\n",
+            "Ingresa tu edad (Numero Entero) : 30\n",
+            "Es momento de cuidar el terreno para futuras siembras\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Vemos que si el usuario ingresa caracteres diferentes a digitos (0,1,2,...,9)\n",
+        "# la version actual del codigo devuelve una excepcion (ValueError)"
+      ],
+      "metadata": {
+        "id": "_yfTSPJ3dkLD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Primer escenario\n",
+        "\n",
+        "\n",
+        "print(\"Bienvenidos a mi primera celda que utiliza la estructura de decision IF\")\n",
+        "\n",
+        "# Entradas/Inputs\n",
+        "#\n",
+        "# ==============================================================================\n",
+        "# edad_user = int(input(\"Ingresa tu edad (Numero Entero) : \"))\n",
+        "# ==============================================================================\n",
+        "edad_user = input(\"Ingresa tu edad (Numero Entero) : \")\n",
+        "if edad_user.isdigit():\n",
+        "    edad_user = int(edad_user)\n",
+        "\n",
+        "    # Implementemos la logica\n",
+        "    if (edad_user >= 0 ) and (edad_user < 18):\n",
+        "        print(\"Es momento de preparar el terreno para la siembra\")\n",
+        "    elif (edad_user >= 18) and (edad_user < 29):\n",
+        "        print(\"Es momento de sembrar\")\n",
+        "    elif (edad_user >= 29) and (edad_user < 45):\n",
+        "        print(\"Es momento de cuidar el terreno para futuras siembras\")\n",
+        "    elif (edad_user >= 45) and (edad_user < 99) :\n",
+        "        print(\"Es momento de disfrutar la cosecha\")\n",
+        "    else:\n",
+        "        print(\"El valor ingresado no es una edad adecuada (considerada)\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"Ingreso ERRONEO\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5b34o7MFdyeH",
+        "outputId": "a338fddf-624f-436e-ac1e-1ae161dd36df"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bienvenidos a mi primera celda que utiliza la estructura de decision IF\n",
+            "Ingresa tu edad (Numero Entero) : xx\n",
+            "Ingreso ERRONEO\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
