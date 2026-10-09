@@ -1,0 +1,39 @@
+# Estructuras de Datos
+
+Una estructura  de datos es un modo de organizar la informacion en la memoria de la computadora, implementado en un lenguaje de programacion especifico.
+
+* Estructuras de datos en C:
+    - Arrays
+    - struct
+    - union
+    - Listas enlazadas
+    - Pilas
+    - Colas
+    - Arboles
+    - Tablas Hash
+
+* Estructuras de datos en C++:
+    - Contenedores Secuenciales : std::array , std::vector , std::deque, std::list, std::forward_list
+    - Contenedores Asociativos : std::set, std::multiset, std::map, std::multimap
+    - Contenedores asociativos no ordenados
+    - Adaptadores de contenedores
+
+* Estructura de datos en Julia:
+    - Arreglos : Vectores, Matrices, Multidimensionales, dispersos
+    - Diccionarios
+    - Conjuntos
+    - Set
+    - Tuplas
+    - Structs
+    - Named Tuples
+
+* Estructuras de Datos en Python:
+    - Listas
+    - Tuplas
+    - Diccionarios
+    - Set
+    - El modulo `collections` :
+        - deque
+        - namedtuple
+        - Counter
+        - defaultdict
